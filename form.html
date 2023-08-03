@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Registration Form</title>
+  </head>
+  <body>
+    <center>
+      <h2>Sign Up</h2>
+      <form action="#" method="post">
+        <label for="firstName">First Name:</label><br />
+        <input type="text" id="firstName" name="firstName" required /><br />
+
+        <label for="lastName">Last Name:</label><br />
+        <input type="text" id="lastName" name="lastName" required /><br />
+
+        <label for="dob">Date of Birth:</label><br />
+        <input type="date" id="dob" name="dob" required /><br />
+
+        <label for="age">Age:</label><br />
+        <input type="number" id="age" name="age" required /><br />
+
+        <label>Gender:</label><br />
+        <input type="radio" id="male" name="gender" value="male" required />
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female" required />
+        <label for="female">Female</label>
+        <input type="radio" id="other" name="gender" value="other" required />
+        <label for="other">Other</label><br />
+
+        <label for="phoneNumber">Phone Number:</label><br />
+        <input type="tel" id="phoneNumber" name="phoneNumber" required /><br />
+
+        <label for="email">Email Address:</label><br />
+        <input type="email" id="email" name="email" required /><br />
+
+        <label for="address">Address:</label><br />
+        <textarea id="address" name="address" rows="3" required></textarea><br />
+
+        <label for="state">State:</label><br />
+        <select id="state" name="state" required>
+          <option value="" disabled selected>Select State</option>
+          <option value="state1">Tamil Nadu</option>
+          <option value="state2">Kerala</option></select
+        ><br />
+
+        <label for="city">City:</label><br />
+        <select id="city" name="city" required>
+          <option value="" disabled selected>Select City</option>
+          <option value="">Cochin</option>
+          <option value="">Trivandrum</option>
+          <option value="">Coimbatore</option></select
+        ><br />
+
+        <label for="username">Username:</label><br />
+        <input type="text" id="username" name="username" required /><br />
+
+        <label for="password">Password:</label><br />
+        <input type="password" id="password" name="password" required /><br />
+
+        <label for="confirmPassword">Confirm Password:</label><br />
+        <input type="password" id="confirmPassword" name="confirmPassword" required /><br />
+
+        <input type="submit" value="Sign Up" />
+      </form>
+    </center>
+  </body>
+</html>
