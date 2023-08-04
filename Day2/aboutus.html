@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Day 2 Task</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <style>
+      body {
+        font-family: "poppins";
+        line-height: 1.6;
+        margin: 0;
+        padding: 0;
+      }
+
+      main {
+        padding: 20px;
+      }
+
+      h2 {
+        color: #005ea5;
+        font-size: 24px;
+        margin-bottom: 10px;
+      }
+
+      .cards-section {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+        padding: 20px;
+      }
+
+      .card {
+        border: 1px solid #ccc;
+        border-radius: 8px;
+        padding: 20px;
+        background-color: #f9f9f9;
+      }
+
+      .card h3 {
+        color: #005ea5;
+        font-size: 20px;
+        margin-bottom: 10px;
+      }
+
+      .card p {
+        color: #333;
+        font-size: 16px;
+      }
+      .our-team-section {
+        text-align: center;
+        padding: 40px;
+      }
+
+      .our-team-section h2 {
+        color: #005ea5;
+        font-size: 24px;
+        margin-bottom: 20px;
+      }
+
+      .team-members {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: stretch;
+      }
+
+      .team-member {
+        flex: 0 0 280px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+        border: 1px solid #ccc;
+        border-radius: 8px;
+        margin: 10px;
+      }
+
+      .team-member img {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        object-fit: cover;
+        margin-bottom: 10px;
+      }
+
+      .team-member h3 {
+        font-size: 20px;
+        margin-bottom: 5px;
+      }
+
+      .team-member p {
+        font-size: 16px;
+        color: #333;
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+      <a class="navbar-brand h2" href="./index.html">Claysys Technologies</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navv">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navv">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link active" href="./aboutus.html">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./login.html">Login</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./signup.html">Sign Up</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./contactus.html">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <main>
+      <section>
+        <h2>Our Story</h2>
+        <p style="color: #333; font-size: 16px; margin-bottom: 20px">
+          ClaySys was founded to deliver technology solutions that positively impacted the business, versus just technology solutions that were technically excellent, but may not have delivered on the key business objectives. We achieve this through
+          a structured methodology that maps the business impact on every aspect of the technology solution being designed and developed. The core team at ClaySys are tenured IT Consultants who were involved in large scale technology projects
+          starting from the early nineties. The innovative key-employee retention policies and incentives that we have structured ensure that our key employees stay with ClaySys for the long term, thus delivering incremental value to our clients, as
+          we understand their business better. Our investments into product development to address some of the major holistic pain points related to software development and maintenance, keep us on the cutting edge of technology and well positioned
+          to deliver exponential value to our clients.
+        </p>
+      </section>
+      <section class="cards-section">
+        <div class="card">
+          <h3>TECHNOLOGY</h3>
+          <p>ClaySys is primarily a technology company, and we have been at the forefront of Information Technology and Electronics for more than a decade. Our strengths are building cutting edge software and software products.</p>
+        </div>
+        <div class="card">
+          <h3>LIFESTYLE</h3>
+          <p>
+            ClaySys diversified into the construction business when we saw an opportunity with how technology was actively entering homes. Today ClaySys Lifestyle constructs apartments and villas in the city of Kochi in Kerala that is of a standard
+            that is not typically found in India.
+          </p>
+        </div>
+        <div class="card">
+          <h3>INFRASTRUCTURE</h3>
+          <p>
+            With the growing demand for quality office space, and the growth of ClaySys Technologies, we diversified into the infrastructure development business. Our first project is a Commercial Office Campus in Infopark Phase 2 which is the SEZ at
+            Kochi in Kerala.
+          </p>
+        </div>
+        <div class="card">
+          <h3>HOSPITALITY</h3>
+          <p>
+            The ClaySys Hospitality business evolved from our need to provide good leisure and employee support options at the ClaySys Technologies office and new ClaySys Infrastructure campus. ClaySys Hospitality provides quality food services
+            within Infopark Kochi.
+          </p>
+        </div>
+      </section>
+      <section class="our-team-section">
+        <h2>Our Team</h2>
+        <div class="team-members">
+          <div class="team-member">
+            <img src="./teammember1.jpg" alt="Team Member 1" />
+            <h3>Vinod Tharakan</h3>
+            <p>Managing Director</p>
+          </div>
+          <div class="team-member">
+            <img src="./teammember2.jpg" alt="Team Member 2" />
+            <h3>Daniel R Vena</h3>
+            <p>VP- Corporate development</p>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="bg-dark text-white py-4">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <p>&copy; 2023 Claysys Technologies. All rights reserved.</p>
+            <p>Address: 123 Main Street, Kochin, Kerala</p>
+          </div>
+          <div class="col-md-6 text-right">
+            <a href="#" class="text-white"><i class="fab fa-facebook-f fa-lg mx-2"></i></a>
+            <a href="#" class="text-white"><i class="fab fa-twitter fa-lg mx-2"></i></a>
+            <a href="#" class="text-white"><i class="fab fa-linkedin-in fa-lg mx-2"></i></a>
+            <a href="#" class="text-white"><i class="fab fa-instagram fa-lg mx-2"></i></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
+</html>

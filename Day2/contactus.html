@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Day 2 Task</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <style>
+      body {
+        font-family: "poppins";
+        margin: 0;
+        padding: 0;
+        background-color: #dfdfdf;
+      }
+
+      main {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+      }
+
+      h1 {
+        text-align: center;
+        margin-bottom: 30px;
+      }
+
+      section {
+        margin-bottom: 40px;
+      }
+
+      label {
+        font-weight: bold;
+      }
+
+      input[type="text"],
+      input[type="email"],
+      textarea {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 15px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+      }
+
+      input[type="submit"] {
+        display: block;
+        width: 100%;
+        padding: 10px;
+        background-color: #343a40;
+        color: #fff;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+
+      @media screen and (max-width: 600px) {
+        main {
+          padding: 10px;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        textarea,
+        input[type="submit"] {
+          margin-bottom: 10px;
+        }
+      }
+
+      @media screen and (max-width: 400px) {
+        h1 {
+          font-size: 24px;
+        }
+
+        input[type="submit"] {
+          font-size: 14px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+      <a class="navbar-brand h2" href="./index.html">Claysys Technologies</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navv">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navv">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="./aboutus.html">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./login.html">Login</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./signup.html">Sign Up</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="./contactus.html">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <main>
+      <h1>Contact Us</h1>
+      <section>
+        <h2>Get in Touch</h2>
+        <p>Fill out the form below to get in touch with us. We'll get back to you as soon as possible.</p>
+        <form action="#" method="post">
+          <label for="name">Name:</label><br />
+          <input type="text" id="name" name="name" required /><br />
+
+          <label for="email">Email:</label><br />
+          <input type="email" id="email" name="email" required /><br />
+
+          <label for="message">Message:</label><br />
+          <textarea id="message" name="message" rows="5" required></textarea><br />
+
+          <input type="submit" value="Submit" />
+        </form>
+      </section>
+      <section>
+        <h2>Visit Us</h2>
+        <p>Located in: Infopark Kochi Phase 2 Address: Infopark Phase 2, Kakkanad, Kerala 682030 Phone: 0484 297 5311</p>
+      </section>
+    </main>
+
+    <footer class="bg-dark text-white py-4">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <p>&copy; 2023 Claysys Technologies. All rights reserved.</p>
+            <p>Address: 123 Main Street, Kochin, Kerala</p>
+          </div>
+          <div class="col-md-6 text-right">
+            <!-- Social Icons -->
+            <a href="#" class="text-white"><i class="fab fa-facebook-f fa-lg mx-2"></i></a>
+            <a href="#" class="text-white"><i class="fab fa-twitter fa-lg mx-2"></i></a>
+            <a href="#" class="text-white"><i class="fab fa-linkedin-in fa-lg mx-2"></i></a>
+            <a href="#" class="text-white"><i class="fab fa-instagram fa-lg mx-2"></i></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
+</html>
